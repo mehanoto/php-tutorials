@@ -25,6 +25,9 @@ if(mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 ```
+PHP сорс кодът от този пример се намира във файла insert-records-into-mysql-database-table.php, за да го изпълните може да навигирате до http://localhost/php-tutorials/insert/insert-records-into-mysql-database-table.php 
+
+
 Ако си спомняте от [предходната глава.](../create_tbl/README.md), полето id беше маркирано с флага AUTO_INCREMENT. Този модификатор казва на MySQL автоматично да присвои стойност на това поле, ако е оставено неуточнено, като увеличи предишната стойност с 1.
 
 ## Добавяне на повече от един редове наведнъж
@@ -56,6 +59,8 @@ if(mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 ```
+PHP сорс кодът от този пример се намира във файла insert-multiple-rows-into-table-in-mysql.php, за да го изпълните може да навигирате до http://localhost/php-tutorials/insert/insert-multiple-rows-into-table-in-mysql.php.
+
 Сега отидете на phpMyAdmin (http://localhost/phpmyadmin/) и проверете данните от таблицата с лица в базата demo. Ще откриете, че стойността за колоната id се присвоява автоматично чрез увеличаване на стойността на предишния id с 1.
 
 ## Добавяне на записи от HTML Form
@@ -119,5 +124,6 @@ if(mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 ```
+За да изпълните този пример може да навигирате тук http://localhost/php-tutorials/insert/add-record-form.php
 В следващата секция ще разширим този пример за заявка за вмъкване и ще го направим една стъпка напред, като внедрим [изготвена заявка(prepared statement)](../prepared/README.md) за по-добра сигурност и производителност.
 > **Забележка**: Функцията mysqli_real_escape_string() екранира специални знаци в низ и създава легален SQL низ, за ​​да осигури защита срещу SQL инжектиране.
