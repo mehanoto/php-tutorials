@@ -18,7 +18,7 @@ PHP скриптовете се изпълняват на сървъра и ре
 - [Вмъкване на записи. Insert.](insert/README.md)
 - [Изготвени заявки. Prepared statements](prepared/README.md)
 - [ID на последно добавения запис. Last inserted ID. UNDER CONSTRUCTION](last/README.md)
-- [Select заявки. MySQL SELECT Query. UNDER CONSTRUCTION](select/README.md)
+- [Select заявки. MySQL SELECT Query.](select/README.md)
 
 
 Източник:
