@@ -7,6 +7,9 @@ PHP скриптовете се изпълняват на сървъра и ре
 Типична комуникация заявка-отговор
 
 ![This is an image](images/request-response-cycle.png)
+## Как да работим с този туториал ?
+За целта трябва да клонирате/свалим текущото хранилище във вашата публична директория на локалния ви PHP сървър (xampp or wamp). Тук е важно да се спази взаимното разположение на директориите, така че главната папка php-tutorials да се разположи в публичната директория на сървъра. След това просто пускате сървъра и следвате инструкциите.
+> Най-лесният вариант за сваляне е през зеления бутон Code -> Download Zip и после си разархивирате php-tutorials.
 
 ## PHP и MySQL
 - [Връзка с MySQL](connection/README.md)
@@ -15,7 +18,7 @@ PHP скриптовете се изпълняват на сървъра и ре
 - [Вмъкване на записи. Insert.](insert/README.md)
 - [Изготвени заявки. Prepared statements](prepared/README.md)
 - [ID на последно добавения запис. Last inserted ID. UNDER CONSTRUCTION](last/README.md)
-- [Select заявки. MySQL SELECT Query. UNDER CONSTRUCTION](select/README.md)
+- [Select заявки. MySQL SELECT Query.](select/README.md)
 
 
 Източник:

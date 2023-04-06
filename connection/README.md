@@ -54,3 +54,4 @@ echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
 mysqli_close($link);
 ?>
 ```
+PHP сорс кодът от този пример се намира във файла connect-to-mysql-database-server.php, за да го изпълните може да навигирате до http://localhost/php-tutorials/connection/connect-to-mysql-database-server.php
